@@ -1,0 +1,10 @@
+{
+  "name": "honey-trigger",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "netlify-cli": "^10.10.0"
+  },
+  "dependencies": {}
+}
