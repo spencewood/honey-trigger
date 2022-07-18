@@ -3,6 +3,8 @@ exports.handler = async (event) => {
     return { statusCode: 405, body: "Method Not Allowed" };
   }
   
+  console.log('headers', event.headers);
+
   console.log('body', JSON.parse(event.body));
 
   return {
